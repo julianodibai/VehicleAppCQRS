@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>_1___API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2 - Services\Input\InputService.csproj" />
+    <ProjectReference Include="..\3 - Infrastructure\Input\InputInfra.csproj" />
+    <ProjectReference Include="..\3 - Infrastructure\Output\OutputInfra.csproj" />
+    <ProjectReference Include="..\3 - Infrastructure\Shared\SharedInfra.csproj" />
+  </ItemGroup>
+
+</Project>
